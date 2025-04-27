@@ -1,1 +1,20 @@
-tba
+body {
+    background-color: #Crimson; 
+    color: White;
+    font-family: "Arial", serif;
+}
+
+a:link
+{
+    color:white; /* old: #FFFFFF */
+}
+
+a:visited
+{
+    color:azure; /* old: #a3abb5 */
+}
+
+a:hover 
+{
+    color:cornsilk; /* old: #ced6de */
+}
