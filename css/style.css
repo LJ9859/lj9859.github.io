@@ -6,15 +6,15 @@ body {
 
 a:link
 {
-    color:white; /* old: #FFFFFF */
+    color:white; 
 }
 
 a:visited
 {
-    color:azure; /* old: #a3abb5 */
+    color:azure;
 }
 
 a:hover 
 {
-    color:cornsilk; /* old: #ced6de */
+    color:cornsilk; 
 }
