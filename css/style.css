@@ -2,6 +2,7 @@ body {
     background-color: #DC143C; 
     color: White;
     font-family: "Arial", serif;
+    font-weight: 300; /* Light */
 }
 
 a:link
