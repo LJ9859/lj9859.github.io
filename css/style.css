@@ -24,9 +24,8 @@ a:hover
 
 .nerfdir {
     display: grid;
-    grid-template-columns: repeat(10, 200px);
-    column-gap: 10px;
-    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Makes the grid responsive */
+    gap: 10px;
     padding: 20px;
 }
 
