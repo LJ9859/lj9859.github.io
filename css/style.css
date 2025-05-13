@@ -21,3 +21,32 @@ a:hover
 {
     color:cornsilk; 
 }
+
+.nerfdir {
+    display: grid;
+    grid-template-columns: repeat(10, 200px);
+    column-gap: 10px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.nerf {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200px;
+    height: 225px;
+}
+
+.nerf img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nerf .nerfrole {
+    margin-top: 10px;
+    font-size: 1rem;
+}
