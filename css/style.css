@@ -23,7 +23,7 @@ a:hover
     color:DarkGrey; 
 }
 
-.nerfdir {
+.nerfdir { /* Legacy */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusts dynamically */
     gap: 10px;
@@ -31,7 +31,7 @@ a:hover
     padding: 20px;
 }
 
-.nerf {
+.nerf { /* Legacy */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -40,14 +40,14 @@ a:hover
     height: 225px;
 }
 
-.nerf img {
+.nerf img { /* Legacy */
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 0%;
 }
 
-.nerf .nerfrole {
+.nerf .nerfrole { /* Legacy */
     margin-top: 10px;
     font-size: 1rem;
 }
@@ -67,9 +67,18 @@ a:hover
     font-family: "Segoe UI", sans-serif;
 }
 
+.navbar p {
+	margin: 0 10px;
+	color: white;
+	font-family: "Segoe UI", sans-serif;
+}
+
 .navbar h1 {
     margin: 0 20px 0 0;
     color: white;
     font-family: "Segoe UI", sans-serif;
 }
 
+.circle-pic img {
+	border-radius: 50%;
+}
