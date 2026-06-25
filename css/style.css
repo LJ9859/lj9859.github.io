@@ -64,7 +64,8 @@ a:hover
 }
 
 .navbar a {
-    margin: 0 10px;
+    margin: 0 14px;
+	font-size: 20px;
     color: white;
     text-decoration: none;
     font-family: "Segoe UI", sans-serif;
@@ -72,6 +73,7 @@ a:hover
 
 .navbar p {
 	margin: 0 10px;
+	font-size: 20px;
 	color: white;
 	font-family: "Segoe UI", sans-serif;
 }
@@ -87,6 +89,16 @@ a:hover
 }
 
 .icon {
-	width: 28;
-	height: 28;
+	width: 36;
+	height: 36;
+}
+
+.discordinvite {
+	display: inline-flex;
+	margin: auto;
+	align-items: center;
+}
+
+.discordtext {
+	padding:10px;
 }
