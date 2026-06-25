@@ -21,19 +21,19 @@ body {
 
 a:link
 {
-    color:Black;
+    color:White;
 	text-decoration: none;
 }
 
 a:visited
 {
-    color:DarkSlateBlue;
+    color:Beige;
 	text-decoration: none;
 }
 
 a:hover 
 {
-    color:DarkGrey; 
+    color:Azure; 
 	text-decoration: none;
 }
 
@@ -125,7 +125,6 @@ a:hover
 	
 	border: 2px solid rgba(255,255,255,0.6);
 	padding: 20px;
-	border-radius: 8px;
 }
 
 .lj9859abouttext {
@@ -133,6 +132,7 @@ a:hover
 	flex-direction: column;
 	align-items: flex-start;
 	font-size: 24px;
+	margin-top: -20px;
 }
 
 .socialicon {
