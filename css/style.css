@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-    background-color: White; 
-    color: Black; /* #DCDCDC also good */
+    background: url("/img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	position: relative;
+    color: White; /* #DCDCDC also good */
     font-family: "Roboto", sans-serif;
     font-weight: 150; /* Light */
 	margin: 0;
+	padding: 0;
+	height: 100vh;
 }
 
 a:link
@@ -113,4 +117,17 @@ a:hover
 
 .lj9859abouttext {
 	align-items: left;
+}
+
+.socialicon {
+	width: 42;
+	height: 42;
+}
+
+.socials {
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
 }
