@@ -10,17 +10,20 @@ body {
 
 a:link
 {
-    color:Black; 
+    color:Black;
+	text-decoration: none;
 }
 
 a:visited
 {
     color:DarkSlateBlue;
+	text-decoration: none;
 }
 
 a:hover 
 {
     color:DarkGrey; 
+	text-decoration: none;
 }
 
 .nerfdir { /* Legacy */
@@ -84,6 +87,6 @@ a:hover
 }
 
 .icon {
-	width: 18;
-	height: 18;
+	width: 28;
+	height: 28;
 }
