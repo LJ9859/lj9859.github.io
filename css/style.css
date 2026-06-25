@@ -82,3 +82,8 @@ a:hover
 .circle-pic img {
 	border-radius: 50%;
 }
+
+.icon img {
+	width: 18;
+	height: 18;
+}
