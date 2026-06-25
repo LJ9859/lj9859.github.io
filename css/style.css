@@ -79,11 +79,11 @@ a:hover
     font-family: "Segoe UI", sans-serif;
 }
 
-.circle-pic img {
+.circle-pic {
 	border-radius: 50%;
 }
 
-.icon img {
+.icon {
 	width: 18;
 	height: 18;
 }
