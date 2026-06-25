@@ -5,6 +5,7 @@ body {
     color: Black; /* #DCDCDC also good */
     font-family: "Roboto", sans-serif;
     font-weight: 150; /* Light */
+	margin: 0;
 }
 
 a:link
