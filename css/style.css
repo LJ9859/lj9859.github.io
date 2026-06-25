@@ -2,24 +2,24 @@
 
 body {
     background-color: White; 
-    color: #DCDCDC;
+    color: Black; /* #DCDCDC also good */
     font-family: "Roboto", sans-serif;
     font-weight: 150; /* Light */
 }
 
 a:link
 {
-    color:white; 
+    color:Black; 
 }
 
 a:visited
 {
-    color:azure;
+    color:DarkSlateBlue;
 }
 
 a:hover 
 {
-    color:cornsilk; 
+    color:DarkGrey; 
 }
 
 .nerfdir {
