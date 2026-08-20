@@ -196,18 +196,29 @@ a:hover
 }
 
 .youtubeavatar {
-	width: 80px;
-	height: 80px;
+	width: 96px;
+	height: 96px;
 	border-radius: 50%;
 	object-fit: cover;
+	flex-shrink: 0;
 }
 
 .youtubesubscribe {
 	height: 34px;
 	width: auto;
+	display: block;
+	margin-top: 2px;
 }
 
 .youtubename {
 	font-size: 1.35rem;
 	font-weight: 600;
+}
+
+.youtubedesc {
+	margin: 0;
+	font-size: 0.9rem;
+	color: rgba(255, 255, 255, 0.75);
+	line-height: 1.3;
+	max-width: 450px;
 }
