@@ -83,9 +83,11 @@ a:hover
     background: #1F1F1F80;
     padding: 12px 24px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-	position: sticky;
+	position: fixed;
 	top: 0;
-	z-index: 99999;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
 }
 
 .navbar a {
