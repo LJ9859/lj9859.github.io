@@ -196,8 +196,8 @@ a:hover
 }
 
 .youtubeavatar {
-	width: 96px;
-	height: 96px;
+	width: 108px;
+	height: 108px;
 	border-radius: 50%;
 	object-fit: cover;
 	flex-shrink: 0;
