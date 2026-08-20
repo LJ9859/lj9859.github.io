@@ -85,7 +85,7 @@ a:hover
     box-shadow: 0 2px 8px rgba(0,0,0,0.25);
 	position: sticky;
 	top: 0;
-	z-index: 1000;
+	z-index: 99999;
 }
 
 .navbar a {
@@ -116,18 +116,24 @@ a:hover
 .icon {
 	width: 48px;
 	height: 48px;
+	display: block;
 }
 
 .discordinvite {
 	width: 100%;
 	display: flex;
-	margin: auto;
 	justify-content: center;
 	align-items: center;
+	gap: 10px;
+}
+
+.discordtext h2 {
+	margin: 0;
+	line-height: 1;
 }
 
 .discordtext {
-	padding: 10px;
+	padding: 0px;
 }
 
 .lj9859about {
