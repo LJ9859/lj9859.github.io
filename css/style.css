@@ -183,24 +183,31 @@ a:hover
 .youtuberow {
 	display: flex;
 	align-items: center;
-	gap: 16px;
+	gap: 20px;
 	padding: 12px 0;
 }
 
 .youtubeinfo {
 	display: flex;
 	flex-direction: column;
-	gap: 6px;
+	align-items: flex-start;
+	text-align: left;
+	gap: 8px;
 }
 
 .youtubeavatar {
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 	object-fit: cover;
 }
 
 .youtubesubscribe {
-	height: 24px;
+	height: 34px;
 	width: auto;
+}
+
+.youtubename {
+	font-size: 1.35rem;
+	font-weight: 600;
 }
